@@ -4,15 +4,10 @@ a{
 }
 
 h1{
-    color: midnightblue;
-}
-
-h2{
-    color: rgb(255, 44, 44);
-}
-
-h3{
-    color: rgb(255, 0, 191);
+    color: rgb(117, 117, 255);
+    font-size: 38px ;
+    margin-top: 66px;
+    line-height: 45px;
 }
 
 nav{
@@ -20,9 +15,64 @@ nav{
     border: 1px solid darkslateblue;
 }
 
-article{
+.art{
     width: 700px;
-    background: rgb(210, 210, 255);
-
+    margin: 0 auto;
+    margin-bottom: 300px;
 }
 
+h1+hr+p{
+    margin-top: 8px;
+    font-size: 22px;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+h1+hr+p+p{
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+h2{
+    margin-top: 50px;
+    font-size: 32px;
+    line-height: 36px;
+    color: rgb(255, 44, 44);
+}
+
+h3{
+    margin-top: 40px;
+    font-size: 28px;
+    line-height: 32 px;
+    color: rgb(255, 0, 149);
+}
+h2+p{
+    margin-top: 8px;
+}
+
+p, blockquote{
+    margin-top: 30 px;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+h3+p{
+    margin-top: 8px;
+}
+
+blockquote{
+    font-style: italic;
+    margin-left: 4%;
+}
+
+img{
+    width: 80%;
+    margin-bottom: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0;
+    margin-top: 30px;
+    border-radius: 30px;
+}
