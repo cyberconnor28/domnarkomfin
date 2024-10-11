@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Comfortaa-VariableFont_wght";
+    src: url(../Comfortaa/Comfortaa-VariableFont_wght.ttf) format(truetype);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "dimkin";
+    src: url(../dimkin_font/Dimkin\ Regular.ttf) format(truetype);
+    font-weight: 400;
+    font-style: normal;
+}
+
+a{
+    font-family: Comfortaa-VariableFont_wght;
+}
